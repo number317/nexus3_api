@@ -1,0 +1,2 @@
+{ "name": "setUserRoles", "type": "groovy", "content": "security.setUserRoles(\"test\", [\"nx-admin\"])"
+}

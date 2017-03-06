@@ -1,0 +1,1 @@
+{ "name": "adduser", "type": "groovy", "content": "security.adduser(\"test\", \"august\", \"rush\", \"test@test-example.com\", true, \"011235\", ['test'])" }

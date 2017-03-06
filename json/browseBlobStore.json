@@ -1,0 +1,5 @@
+{
+    "name": "browseBlobStore",
+    "type": "groovy",
+    "content": "blobStore.getBlobStoreManager().browse().asList().each {blobStore->blobStore.getBlobStoreConfiguration()}"
+}

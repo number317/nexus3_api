@@ -1,0 +1,5 @@
+{
+    "name": "blobStore-group",
+    "type": "groovy",
+    "content": "blobStore.createFileBlobStore('maven-group', '/nexus-data/blobs/maven-group')"
+}

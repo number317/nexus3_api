@@ -1,0 +1,5 @@
+{
+    "name": "getConfiguration",
+    "type": "groovy",
+    "content": "security.getAnonymousManager().getConfiguration()"
+}

@@ -1,0 +1,1 @@
+{ "name": "browseRepository", "type": "groovy", "content": "repository.getRepositoryManager().browse()" }

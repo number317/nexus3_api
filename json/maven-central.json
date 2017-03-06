@@ -1,0 +1,5 @@
+{
+    "name": "maven-central",
+    "type": "groovy",
+    "content": "import org.sonatype.nexus.repository.maven.VersionPolicy; import org.sonatype.nexus.repository.maven.LayoutPolicy; repository.createMavenProxy('maven-central', 'https://repo1.maven.org/maven2/', 'maven-central', true, VersionPolicy.RELEASE, LayoutPolicy.STRICT)"
+}

@@ -1,0 +1,1 @@
+{ "name": "createMavenGroup", "type": "groovy", "content": "repository.createMavenGroup(\"maven-group\", [\"maven-releases\", \"maven-central\"], \"maven-group\")" }

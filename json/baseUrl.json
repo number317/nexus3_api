@@ -1,0 +1,1 @@
+{ "name": "baseUrl", "type": "groovy", "content": "core.baseUrl(\"http://repo.example.com\")" }

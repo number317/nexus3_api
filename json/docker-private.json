@@ -1,0 +1,5 @@
+{
+    "name": "docker-private",
+    "type": "groovy",
+    "content": "import org.sonatype.nexus.repository.storage.WritePolicy; repository.createDockerHosted('docker-private', 8083, null, 'docker-private', true, true, WritePolicy.ALLOW)"
+}

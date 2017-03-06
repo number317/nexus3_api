@@ -1,0 +1,1 @@
+{ "name": "deleteBlobStore", "type": "groovy", "content": "blobStore.getBlobStoreManager().delete(\"testDelete\")" }

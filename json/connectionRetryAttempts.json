@@ -1,0 +1,1 @@
+{ "name": "connectionRetryAttempts", "type": "groovy", "content": "core.connectionRetryAttempts(5)" }

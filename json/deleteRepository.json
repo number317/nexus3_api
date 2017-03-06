@@ -1,0 +1,1 @@
+{ "name": "deleteRepository", "type": "groovy", "content": "repository.getRepositoryManager().delete(\"bower-private\")" }

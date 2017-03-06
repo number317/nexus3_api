@@ -1,0 +1,1 @@
+{ "name": "listRoles", "type": "groovy", "content": "security.getSecuritySystem().listRoles()" }

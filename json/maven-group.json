@@ -1,0 +1,5 @@
+{
+    "name": "maven-group",
+    "type": "groovy",
+    "content": "repository.createMavenGroup('maven-group', ['maven-central', 'maven-releases', 'maven-snapshots'], 'maven-group')"
+}

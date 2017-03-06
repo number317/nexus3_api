@@ -1,0 +1,19 @@
+create:
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/' -d ''
+curl -X POST "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/' -d '' 2>/dev/null
+
+list:
+curl -X GET "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/'
+curl -X GET "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/' 2>/dev/null
+
+run:
+curl -X POST -H "Content-Type: text/plain" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/maven/run'
+curl -X POST -H "Content-Type: text/plain" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" 'http://localhost:8081/service/siesta/rest/v1/script/maven/run' 2>/dev/null
+  
+update:
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" "http://localhost:8081/service/siesta/rest/v1/script/maven" -d ''
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" "http://localhost:8081/service/siesta/rest/v1/script/maven" -d '' 2>/dev/null
+
+delete:
+curl -X DELETE -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" "http://localhost:8081/service/siesta/rest/v1/script/maven"
+curl -X DELETE -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" "http://localhost:8081/service/siesta/rest/v1/script/maven" 2>/dev/null

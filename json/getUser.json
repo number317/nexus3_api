@@ -1,0 +1,1 @@
+{ "name": "getUser", "type": "groovy", "content": "security.getSecuritySystem().getUser(\"test\")" }

@@ -1,0 +1,1 @@
+{ "name": "deleteUser", "type": "groovy", "content": "security.getSecuritySystem().deleteUser(\"test\")" }

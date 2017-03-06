@@ -1,0 +1,1 @@
+{ "name": "createMavenHosted", "type": "groovy", "content": "import org.sonatype.nexus.repository.maven.VersionPolicy; import org.sonatype.nexus.repository.storage.WritePolicy; import org.sonatype.nexus.repository.maven.LayoutPolicy; repository.createMavenHosted(\"maven-releases\", \"maven-releases\", true, VersionPolicy.RELEASE, WritePolicy.ALLOW, LayoutPolicy.STRICT)" }

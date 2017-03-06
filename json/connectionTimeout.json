@@ -1,0 +1,5 @@
+{ 
+    "name": "connectionTimeout",
+    "type": "groovy", 
+    "content": "core.connectionTimeout(10)"
+}

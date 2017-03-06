@@ -1,0 +1,5 @@
+{
+    "name": "blobStore-dockerHub",
+    "type": "groovy",
+    "content": "blobStore.createFileBlobStore('docker-hub', '/nexus-data/blobs/docker-hub')"
+}

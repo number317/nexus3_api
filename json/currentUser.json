@@ -1,0 +1,1 @@
+{ "name": "currentUser", "type": "groovy", "content": "security.getSecuritySystem().currentUser()" }

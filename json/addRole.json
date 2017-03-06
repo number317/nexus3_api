@@ -1,0 +1,1 @@
+{    "name": "addRole", "type": "groovy", "content": "security.addRole(\"test\", \"test\", \"test role\", [\"nx-all\"], [])" }

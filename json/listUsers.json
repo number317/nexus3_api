@@ -1,0 +1,1 @@
+{ "name": "listUsers", "type": "groovy", "content": "security.getSecuritySystem().listUsers()" }

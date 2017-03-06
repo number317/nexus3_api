@@ -1,0 +1,5 @@
+{
+    "name": "blobStore-dockerPrivate",
+    "type": "groovy",
+    "content": "blobStore.createFileBlobStore('docker-private', '/nexus-data/blobs/docker-private')"
+}
